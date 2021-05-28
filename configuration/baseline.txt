@@ -13,7 +13,7 @@ hostname vios-prod-1
 enable secret cisco
 no ip domain-lookup
 int g0/0
-ip add 10.78.3.244 255.255.255.192
+ip add 10.78.3.221 255.255.255.192
 no sh
 int g0/1
 ip add 10.0.11.1 255.255.255.252
@@ -47,7 +47,7 @@ hostname vios-prod-2
 enable secret cisco
 no ip domain-lookup
 int g0/0
-ip add 10.78.3.245 255.255.255.192
+ip add 10.78.3.222 255.255.255.192
 no sh
 int g0/1
 ip add 10.0.11.2 255.255.255.252
@@ -78,7 +78,7 @@ hostname vios-prod-3
 enable secret cisco
 no ip domain-lookup
 int g0/0
-ip add 10.78.3.246 255.255.255.192
+ip add 10.78.3.223 255.255.255.192
 no sh
 int g0/1
 ip add 10.0.12.2 255.255.255.252
@@ -109,7 +109,7 @@ hostname vios-prod-1
 enable secret cisco
 no ip domain-lookup
 int g0/0
-ip add 10.78.3.204 255.255.255.192
+ip add 10.78.3.224 255.255.255.192
 no sh
 int g0/1
 ip add 10.0.11.1 255.255.255.252
@@ -143,7 +143,7 @@ hostname vios-prod-2
 enable secret cisco
 no ip domain-lookup
 int g0/0
-ip add 10.78.3.205 255.255.255.192
+ip add 10.78.3.225 255.255.255.192
 no sh
 int g0/1
 ip add 10.0.11.2 255.255.255.252
@@ -174,7 +174,7 @@ hostname vios-prod-3
 enable secret cisco
 no ip domain-lookup
 int g0/0
-ip add 10.78.3.206 255.255.255.192
+ip add 10.78.3.226 255.255.255.192
 no sh
 int g0/1
 ip add 10.0.12.2 255.255.255.252

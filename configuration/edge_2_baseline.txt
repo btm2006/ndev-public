@@ -4,7 +4,7 @@ hostname vios-test-3
 enable secret cisco
 no ip domain-lookup
 int g0/0
-ip add 10.78.3.203 255.255.255.192
+ip add 10.78.3.223 255.255.255.192
 no sh
 int g0/1
 ip add 10.0.12.2 255.255.255.252
